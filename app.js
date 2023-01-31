@@ -28,6 +28,6 @@ app.use(
   })
 );
 
-app.use("/anekamusik", router);
+app.use("/v1", router);
 
 module.exports = app;
